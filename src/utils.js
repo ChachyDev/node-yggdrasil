@@ -4,7 +4,8 @@ const { version } = require('../package.json'); // eslint-disable-line
 
 const headers = {
   'User-Agent': `node-yggdrasil/${version}`,
-  'Content-Type': 'application/json'
+  'Content-Type': 'application/json',
+  'Host': 'authserver.mojang.com'
 }
 
 /**
